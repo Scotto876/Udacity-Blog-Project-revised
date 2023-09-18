@@ -1,0 +1,16 @@
+/* Footer css */
+.footer_container {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px #fff;
+}
+.footer_container p {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: #fff;
+}

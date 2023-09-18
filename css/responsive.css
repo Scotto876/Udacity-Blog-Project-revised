@@ -1,0 +1,50 @@
+/* Tablet screens */
+@media screen and (min-width: 768px) {
+  .frame {
+    /* border: solid 1px rgba(233, 233, 233, 0.925); */
+    max-width: 1024px;
+    height: 1000px;
+  }
+
+  .cover {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+}
+/* Laptop Screens */
+@media screen and (min-width: 1024px) {
+  .frame {
+    /* border: solid 1px rgba(233, 233, 233, 0.925); */
+    max-width: 1300px;
+    height: 1200px;
+  }
+
+  .cover {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
+/* larger screens */
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 1.5rem;
+  }
+  .frame {
+    /* border: solid 1px rgba(233, 233, 233, 0.925); */
+    max-width: 100%;
+    height: 1200px;
+  }
+
+  .cover {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .content_container {
+    grid-area: ct;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 350px 350px;
+    margin-left: 10px;
+  }
+}
