@@ -84,6 +84,9 @@ h3 {
   text-justify: auto;
   margin: 20px;
 }
+q b {
+  color: #ff6600;
+}
 .return_button {
   display: flex;
   justify-content: center;
@@ -101,4 +104,16 @@ button {
 }
 button:hover {
   background-color: rgb(248, 104, 1);
+}
+
+.constructionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
 }
